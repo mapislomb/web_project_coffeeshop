@@ -166,7 +166,7 @@ nav {
   font-size: 20px;
   line-height: 30px;
 }
-.recipes__videos {
+.recepes__videos {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -177,7 +177,7 @@ nav {
   line-height: 30px;
   margin-top: 80px;
 }
-.video__description {
+.recepes__videos-description {
   display: flex;
   justify-content: space-between;
   align-items: center;
