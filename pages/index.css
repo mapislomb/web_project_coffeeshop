@@ -77,6 +77,8 @@ nav {
 }
 
 .header__title {
+  display: flex;
+  flex-direction: column;
   max-width: 709px;
   font-size: 62px;
   line-height: 76px;
