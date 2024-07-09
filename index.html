@@ -30,14 +30,14 @@
 
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#Recetas">Recetas</a>
+              <a class="nav__link" href="#recipes">Recetas</a>
             </li>
 
             <li>
-              <a class="nav__link" href="#Reserve">Reservar una mesa </a>
+              <a class="nav__link" href="#reservation">Reservar una mesa </a>
             </li>
             <li>
-              <a class="nav__link" href="#Contactos"> Contactos</a>
+              <a class="nav__link" href="#contactos"> Contactos</a>
             </li>
           </ul>
         </nav>
@@ -60,30 +60,29 @@
           />
         </div>
         <div class="header__footer">
-          <div class="footer__column_content_hours">
-            <ul class="header__list">
-              <li class="header__list-item">Horario:</li>
-              <li class="header__list-item">
-                Lunes a Viernes (de 10:00h a 19:00h)
-              </li>
-              <li class="header__list-item">
-                Sábados y Domingos (de 11:00h a 18:00h)
-              </li>
-            </ul>
+          <div>
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
           </div>
-          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+          <p class="header__paragraph">Triple Peaks, 200 Success Avenue</p>
         </div>
       </header>
 
       <main class="content">
-        <section class="recepes" id="recepes">
-          <h2 class="recepes__title">Recetas</h2>
-          <p class="recepes__subtitle">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
           </p>
-          <div class="recepes__videos">
+          <div class="recipes__videos">
             <iframe
+              class="recipes__iframe"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=ZOncZ6Lrubpx_fBt"
@@ -93,13 +92,14 @@
               allowfullscreen
             >
             </iframe>
-            <div class="recepes__videos-description">
+            <div class="recipes__videos-description">
               <p>Receta en Aeropress</p>
               <p>~5 min</p>
             </div>
           </div>
           <div>
             <iframe
+              class="recipes__iframe"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/st571DYYTR8?si=orn_Hdrlzw4-MC6M"
@@ -109,7 +109,7 @@
               allowfullscreen
             >
             </iframe>
-            <div class="recepes__videos-description">
+            <div class="recipes__videos-description">
               <p>Receta en cafetera francesa</p>
               <p>~15 min</p>
             </div>
