@@ -178,14 +178,21 @@ nav {
   padding-bottom: 120px;
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-  .reservation__title {
+  .reservation-title {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
   }
+}
+
+.reservation__form {
+  justify-content: center;
 }
 .reserve {
   top: 100px;
@@ -194,6 +201,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  background-color: #2f80ed;
 }
 
 .reservation__label {
@@ -203,6 +211,8 @@ nav {
   font-size: 16px;
   line-height: 20px;
   max-width: 385px;
+  gap: 8px;
+  top: 80px;
 }
 button::content {
   font-family: "Inter";
@@ -210,4 +220,33 @@ button::content {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  max-width: 385px;
+  max-height: 60px;
+}
+
+.input[type="text"] {
+  max-width: 385px;
+  max-height: 60px;
+  bottom: 32px;
+}
+
+.input[type="number"] {
+  max-width: 385px;
+  max-height: 60px;
+  bottom: 32px;
+}
+.input[type="email"] {
+  max-width: 385px;
+  max-height: 60px;
+  bottom: 32px;
+}
+.input[type="datetime-local"] {
+  max-width: 385px;
+  max-height: 60px;
+  bottom: 32px;
+}
+.input[type="checkbox"] {
+  position: absolute;
+  width: 20px;
+  height: 20px;
 }
