@@ -173,3 +173,41 @@ nav {
 .recipes__iframe {
   border: 0;
 }
+.reservation {
+  padding: 100px;
+  padding-bottom: 120px;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+
+  .reservation__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+  }
+}
+.reserve {
+  top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 385px;
+}
+button::content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
