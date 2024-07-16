@@ -18,6 +18,7 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 .background_header {
   position: absolute;
@@ -181,27 +182,38 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
-  .reservation-title {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-  }
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: auto;
 }
 
 .reservation__form {
-  justify-content: center;
+  max-width: 385px;
+  border: 0;
+}
+
+.form {
+  margin: auto;
 }
 .reserve {
-  top: 100px;
+  padding-top: 100px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;
+}
+
+.reservation__form-information {
+  border: 0;
+  padding: 0;
 }
 
 .reservation__label {
@@ -211,10 +223,8 @@ nav {
   font-size: 16px;
   line-height: 20px;
   max-width: 385px;
-  gap: 8px;
-  top: 80px;
 }
-button::content {
+.reseve__button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -222,31 +232,15 @@ button::content {
   line-height: 20px;
   max-width: 385px;
   max-height: 60px;
+  background-color: #2f80ed;
 }
 
-.input[type="text"] {
+.form__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   max-width: 385px;
   max-height: 60px;
   bottom: 32px;
-}
-
-.input[type="number"] {
-  max-width: 385px;
-  max-height: 60px;
-  bottom: 32px;
-}
-.input[type="email"] {
-  max-width: 385px;
-  max-height: 60px;
-  bottom: 32px;
-}
-.input[type="datetime-local"] {
-  max-width: 385px;
-  max-height: 60px;
-  bottom: 32px;
-}
-.input[type="checkbox"] {
-  position: absolute;
-  width: 20px;
-  height: 20px;
 }
