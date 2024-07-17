@@ -231,7 +231,7 @@ nav {
   margin-bottom: 8px;
 }
 
-.reseve__button {
+.reservation__button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -250,7 +250,7 @@ nav {
   color: #ffffff;
   border-radius: 4px;
 }
-.reserve__button:hover {
+.reservation__button:hover {
   opacity: 70%;
 }
 

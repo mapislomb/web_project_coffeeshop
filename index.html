@@ -124,6 +124,7 @@
 
               <input
                 type="text"
+                id="name"
                 class="form__item form__item_name"
                 placeholder="Nombre"
               />
@@ -134,6 +135,7 @@
 
               <input
                 type="number"
+                id="number-people"
                 class="form__item form__item_characteres"
                 placeholder="1-8"
               />
@@ -142,7 +144,11 @@
                 >Fecha y hora *
               </label>
 
-              <input type="date" class="form__item form__item_datetime-local" />
+              <input
+                type="date"
+                id="datetime-local"
+                class="form__item form__item_datetime-local"
+              />
 
               <label for="e-mail" class="reservation__label"
                 >Tu correo electrónico *
@@ -150,10 +156,11 @@
 
               <input
                 type="email"
+                id="e-mail"
                 class="form__item form__item_email"
                 placeholder="email@email.com"
               />
-              <button class="reseve__button">Reservar una mesa</button>
+              <button class="reservation__button">Reservar una mesa</button>
             </fieldset>
 
             <div>
@@ -165,9 +172,8 @@
           </form>
         </section>
       </main>
-      <div>
-        <footer class="footer" id="footer"></footer>
-      </div>
+
+      <footer class="footer" id="footer"></footer>
     </div>
   </body>
 </html>
