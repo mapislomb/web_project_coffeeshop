@@ -190,6 +190,8 @@ nav {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  top: 100px;
+  bottom: 80px;
   margin: auto;
 }
 
@@ -201,6 +203,7 @@ nav {
 .form {
   margin: auto;
 }
+
 .reserve {
   padding-top: 100px;
   font-family: "Inter";
@@ -214,6 +217,8 @@ nav {
 .reservation__form-information {
   border: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .reservation__label {
@@ -222,8 +227,9 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  max-width: 385px;
+  margin-bottom: 8px;
 }
+
 .reseve__button {
   font-family: "Inter";
   font-style: normal;
@@ -233,6 +239,13 @@ nav {
   max-width: 385px;
   max-height: 60px;
   background-color: #2f80ed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .form__item {
@@ -243,4 +256,6 @@ nav {
   max-width: 385px;
   max-height: 60px;
   bottom: 32px;
+  border-radius: 4px;
+  bottom: 8px;
 }
