@@ -22,16 +22,6 @@
   justify-content: center;
 }
 
-.reserve {
-  padding-top: 100px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #2f80ed;
-}
-
 .reservation__form-information {
   border: 0;
   padding: 0;
@@ -74,4 +64,15 @@
 
 .reservation__button:hover {
   opacity: 70%;
+}
+
+.reservation__form {
+  max-width: 385px;
+  border: 0;
+}
+.reservation__form-information {
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
