@@ -4,6 +4,8 @@
   font-family: Arial, sans-serif;
   color: #ffffff;
   padding: 60px 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer__columns {
@@ -19,12 +21,11 @@
 
 .footer__logo {
   justify-content: flex-start;
-  top: 60px;
-  left: 80px;
-  height: 80px;
-  width: 58px;
+  width: 105px;
+  height: 39px;
   margin-bottom: 100px;
-  background-image: url(../favicon_coffee_bean.ico);
+  position: relative;
+  z-index: 2;
 }
 
 .footer__column-heading {
@@ -59,4 +60,15 @@
 
 .footer__copyright {
   margin-top: 100px;
+}
+
+.footer__circle {
+  position: absolute;
+  z-index: 1;
+  top: -110px;
+  left: -110px;
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed;
+  border-radius: 50%;
 }
