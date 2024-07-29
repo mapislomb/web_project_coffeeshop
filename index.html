@@ -44,7 +44,7 @@
 
         <h1 class="header__title">
           <span class="header__title-accent"> Café de especialidad</span>
-          <span> en Triple Peaks</span>
+          en Triple Peaks
         </h1>
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
@@ -127,6 +127,7 @@
                 id="name"
                 class="form__item form__item_name"
                 placeholder="Nombre"
+                required
               />
 
               <label for="number-people" class="reservation__label"
@@ -138,6 +139,7 @@
                 id="number-people"
                 class="form__item form__item_characteres"
                 placeholder="1-8"
+                required
               />
 
               <label for="datetime-local" class="reservation__label"
@@ -148,6 +150,7 @@
                 type="date"
                 id="datetime-local"
                 class="form__item form__item_datetime-local"
+                required
               />
 
               <label for="e-mail" class="reservation__label"
@@ -159,12 +162,17 @@
                 id="e-mail"
                 class="form__item form__item_email"
                 placeholder="email@email.com"
+                required
               />
               <button class="reservation__button">Reservar una mesa</button>
             </fieldset>
 
-            <div>
-              <input type="checkbox" class="form__item" />
+            <div class="reservation__checkbox">
+              <input
+                type="checkbox"
+                class="form__item form__item-checkbox"
+                required
+              />
               <p class="reservation__label">Acepto los términos de uso</p>
             </div>
           </form>
@@ -209,7 +217,7 @@
               </ul>
             </div>
           </div>
-          <p class="footer__copyright">© 2024 Maria Paula Lombana</p>
+          <p class="footer__copyright">&#169; 2024 Maria Paula Lombana</p>
         </div>
       </footer>
     </div>

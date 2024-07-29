@@ -8,6 +8,11 @@
   background-size: cover;
   height: 100vh;
   position: relative;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__title {
@@ -23,8 +28,6 @@
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }
 .header__title-accent {
   color: #2f80ed;
@@ -60,6 +63,9 @@
   align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
 }
 
 .header__link {
